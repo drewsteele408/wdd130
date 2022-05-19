@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&family=Permanent+Marker&family=Righteous&family=Roboto&family=Rock+Salt&display=swap');
+
+body {
+    font-family: Roboto, serif;
+    margin: 0;
+}
 
 /* header styles */
 nav, footer {
     background-color: steelblue;
-    padding: 10px;
+    padding: 25px;
     text-align: center;
 }
 
@@ -11,6 +17,8 @@ nav a {
     margin: 40px;
     text-decoration: none;
     font-size: 1.5em;
+    padding: 10px;
+    border-radius: 9px;
 }
 
 a:hover {
@@ -22,13 +30,17 @@ a:hover {
 h1{
     color: steelblue;
     text-align: center;
+    font-family: "Rock Salt", "Bradley Hand", cursive;
+    margin-top: 30px 0;
 }
 
 img{
     width: 80%;
-    /* border: 4px solid steelblue; */
+    border: 4px solid steelblue;
     display: block;
     margin: 0 auto;
+    border-radius: 9px;
+    /* box-shadow: 15px 15px 10px #ccc; */
 }
 
 p {
@@ -49,5 +61,5 @@ p {
 
 footer p {
     font-size: 20px;
-
+    margin: 20px auto;
 }

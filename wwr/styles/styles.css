@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&family=Permanent+Marker&family=Righteous&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +9,7 @@ nav a{
     text-align: center;
     color: blanchedalmond;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1 {
@@ -32,6 +35,13 @@ main section {
 
 body {
     background-color: #fcfbfb;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -42,15 +52,14 @@ nav a:hover {
     background-color: black;
 }
 
-.book {
+.book, .join {
     background-color: blanchedalmond;
     color: black;
     text-decoration: none;
-}
-
-.join {
-    color: blanchedalmond;
-    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -58,19 +67,26 @@ nav a:hover {
 }
 
 .join:hover {
-    color: white;
+    background-color: white;
 }
 
 .msg {
     background-color: rgba(20, 30, 13, .7);
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: rgba(20, 30, 13, .7);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title {
     color: black;
+    font-family: Righteous, "Permanent Marker", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -79,10 +95,13 @@ h4 {
 
 .msg h2 {
     color: blanchedalmond;
+    font-family: Righteous;
 }
 
 .msg p {
     color: blanchedalmond;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer h3 {
@@ -99,7 +118,9 @@ footer a:hover {
 }
 
 .icon {
-    width: 80px
+    width: 80px;
+    padding-top: 10px;
+    
 }
 
 #hero-img {
@@ -108,4 +129,28 @@ footer a:hover {
 
 footer h3 a:hover {
     text-decoration: underline;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid blanchedalmond;
+}
+
+main section img{
+    box-sizing: border-box;
+}
+
+.mountains {
+    padding: 50px 50px;
 }
