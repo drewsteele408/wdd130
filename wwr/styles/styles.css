@@ -244,34 +244,48 @@ main section img{
 .rivers-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+    margin: 50px;
 }
 
 .idaho-card, .utah-card, .arizona-card {
-    margin: 200px 0;
+    margin: 50px 0;
 
 }
 
 .idaho-card {
-    grid-column: 3/5;
+    grid-column: 1/6;
     grid-row: 2/3;
     padding-right: 30px;
 }
 
 .utah-card {
-    grid-column: 6/8;
+    grid-column: 6/11;
     grid-row: 2/3;
     padding-left: 30px;
 }
 
 .arizona-card {
-    grid-column: 2/7;
-    grid-row: 5/8;
+    grid-column: 1/11;
+    grid-row: 3/5;
 }
 
 .river-card-img {
-    width: 150%;
+    border: 10px solid blanchedalmond;
+    width: 100%;
+    border: 10px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
+/* .river-card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+} */
+
+.idaho-card p {
+    grid-column: 2/6;
+    text-align: center;
+}
 
 /* #river-hero-img {
     width: 100%;
