@@ -63,8 +63,9 @@ nav {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 2/3;
-    padding-bottom: 750px;
-    font-size: 26px;
+    margin: 0 auto;
+    margin-bottom: 50%;
+    font-size: 30px;
 }
 
 .home-grid {
