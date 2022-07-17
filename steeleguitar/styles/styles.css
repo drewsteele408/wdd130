@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Changa+One&family=PT+Sans&display=swap');
 
 #content { 
     max-width: 1600px;
@@ -26,6 +26,7 @@ nav a {
     color: white;
     text-decoration: none;
     padding: 35px;
+    font-family: "Archivo Black";
 }
 
 nav a:hover {
@@ -40,7 +41,7 @@ nav {
 
 #hero-msg h1 {
     text-align: center;
-    color: antiquewhite;
+    color: lavender;
 }
 
 #hero-img {
@@ -61,10 +62,11 @@ nav {
 }
 
 #hero-msg {
+    font-family: "Archivo Black";
     grid-column: 2/3;
     grid-row: 2/3;
     margin: 0 auto;
-    margin-bottom: 50%;
+    margin-bottom: 60%;
     font-size: 30px;
 }
 
@@ -81,6 +83,14 @@ nav {
 .song-card {
     grid-column: 6/9;
     padding-left: 50px;
+}
+
+.song-card h2 {
+    font-family: "Archivo Black";
+}
+
+.chords-card h2 {
+    font-family: "Archivo Black";
 }
 
 .chords-card, .song-card {
@@ -111,6 +121,7 @@ footer {
 
 footer h3 {
     color: antiquewhite;
+    font-family: "Archivo Black";
 }
 
 footer a {
@@ -144,6 +155,7 @@ main section {
 
 .msg p {
     color: white;
+    font-family: "PT Sans";
 }
 
 .get-started {
@@ -153,6 +165,7 @@ main section {
     font-size: 18px;
     padding: 15px;
     border-radius: 5px;
+    font-family: "Archivo Black";
 }
 
 .get-started:hover {
@@ -190,10 +203,14 @@ main section {
 #chord-hero-msg {
     align-items: center;
     justify-items: center;
+    font-family: "Archivo Black";
+
 }
 
 #chord-hero-p {
     padding: 50px;
+    font-family: "Archivo Black";
+    background-color: lavender;
 }
 
 .chord-grid {
@@ -212,18 +229,14 @@ main section {
     margin: 0 auto;
 }
 
+
 .chord-msg {
     grid-column: 1/3;
     grid-row: 5/6;
+    font-family: "Archivo Black";
+    font-size: 24px;
     
 }
-
-/* #chord-background {
-    height: 300px;
-    background-color: red;
-    grid-column: 1/3;
-    grid-row: 5/7;
-} */
 
 .chord-img {
     border: 5px solid #093A3E;
@@ -276,3 +289,180 @@ main section {
     color: white;
     transform: rotateY(180deg);
   }
+
+
+  /* Songs page css */
+  
+
+#songs-hero {
+    grid-column: 1/3;
+}
+
+#songs-hero-img {
+    width: 100%;
+}
+
+#songs-hero h1 {
+    text-align: center;
+    font-family: "Archivo Black";
+}
+
+.take-me-home-country-roads {
+    grid-column: 1/21;
+    
+}
+
+.take-me-home-country-roads h2 {
+    font-family: "Archivo Black";
+}
+
+.take-me-home-country-roads h4 {
+    font-family: "Archivo Black";
+}
+
+span {
+    font-family: "PT Sans";
+}
+
+#congrats {
+    text-align: center;
+}
+
+#guitar-sunset-box {
+
+    grid-column: 1/5;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+.guitar-sunset {
+    width: 100%;
+    
+}
+
+.first-line-grid {
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+}
+
+.strum-chord {
+    background-color: lavender;
+    box-shadow: 2px 2px 5px gray;
+}
+
+#g-first-line{
+    grid-column: 10/11;
+}
+
+#em-first-line{
+    grid-column: 12/13;
+}
+
+#d-first-line {
+    grid-column: 14/15;
+}
+
+#c-first-line {
+    grid-column: 19/20;
+}
+
+#g-first-line-2 {
+    grid-column: 22/23;
+}
+
+#g-second-line {
+    grid-column: 9/10;
+}
+
+#em-second-line {
+    grid-column: 11/12;
+}
+
+
+#g-chorus-first-line {
+    grid-column: 12/13;
+}
+
+#d-chorus-first-line {
+    grid-column: 14/15;
+}
+
+#em-chorus-first-line {
+    grid-column: 16/17;
+}
+
+#c-chorus-first-line {
+    grid-column: 19/20;
+}
+
+#g-chorus-first-line-2 {
+    grid-column: 20/21;
+}
+
+#g-chorus-second-line {
+    grid-column: 11/12;
+}
+
+#d-chorus-second-line{
+    grid-column: 13/14;
+}
+
+#c-chorus-second-line {
+    grid-column: 16/17;
+}
+
+#g-chorus-second-line-2 {
+    grid-column: 19/20;
+}
+
+#em-bridge-first-line {
+    grid-column: 12/13;
+}
+
+#d-bridge-first-line {
+    grid-column: 14/15;
+}
+
+#g-bridge-first-line {
+    grid-column: 17/18;
+}
+
+#c-bridge-second-line {
+    grid-column: 12/13;
+}
+
+#g-bridge-second-line {
+    grid-column: 14/15;
+}
+
+#d-bridge-second-line {
+    grid-column: 17/18;
+}
+
+#g-bridge-third-line {
+    grid-column: 16/17;
+}
+
+#d-bridge-third-line {
+    grid-column: 20/21;
+}
+
+#d-outro-first-line {
+    grid-column: 11/12;
+}
+
+#g-outro-first-line {
+    grid-column: 13/14;
+}
+
+#close {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 100px;
+}
+
+#closing-message {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    font-family: "Archivo Black";
+}
